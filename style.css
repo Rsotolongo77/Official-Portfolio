@@ -96,9 +96,9 @@ body {
 #homeLinks:hover
 {
     box-shadow:
-    1px 1px #ea9c53,
-    2px 2px #ea9c53,
-    3px 3px #ea9c53;
+    1px 1px #5376ea,
+    2px 2px #5376ea,
+    3px 3px #5376ea;
     -webkit-transform: translateX(-4px);
     transform: translateX(-4px);
 }
@@ -127,9 +127,9 @@ body {
 #cardIcons:hover
 {
     box-shadow:
-    1px 1px #ea9c53,
-    2px 2px #ea9c53,
-    3px 3px #ea9c53;
+    1px 1px #5376ea,
+    2px 2px #5376ea,
+    3px 3px #5376ea;
     -webkit-transform: translateX(-4px);
     transform: translateX(-4px);
     text-decoration-color: none;
