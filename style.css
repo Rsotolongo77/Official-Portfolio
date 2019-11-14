@@ -33,9 +33,9 @@ body {
     color: rgb(88, 88, 88);
     padding-right: 15%;
     margin-top: 0.5%;
-    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    /* -webkit-animation: glow 1.5s ease-in-out infinite alternate;
     -moz-animation: glow 1.5s ease-in-out infinite alternate;
-    animation: glow 1.5s ease-in-out infinite alternate;
+    animation: glow 1.5s ease-in-out infinite alternate; */
   }
   
   @keyframes glow {
@@ -126,6 +126,10 @@ body {
     margin-bottom: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.card {
+    width: 18rem;
 }
 
 #cardIcons {
@@ -299,4 +303,199 @@ body {
     background-color: rgba(255, 127, 80, 0.466);
     height: 7vh; 
     padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1025px) {
+
+    html,
+    body {
+        background-position: center;
+    }
+
+    .bodyCont {
+        margin: auto;
+        height: 65vh;
+    }
+
+    .card {
+        width: 12.8rem;
+    }
+
+    #footerId {
+        height: 5vh;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+
+    html,
+    body {
+        background-position: center;
+    }
+
+    .bodyCont {
+        margin: auto;
+        height: 75vh;
+    }
+
+    .card {
+        width: 9.6rem;
+        height: 4vh;
+    }
+
+    .pseudoBtn {
+        width: 17vw;
+        height: 4.8vh;
+    }
+
+    #footerId {
+        height: 5vh;
+    }
+
+
+}
+
+@media (max-width: 415px) {
+
+    html,
+    body {
+        background-position: center;
+    }
+
+    #navFont {
+        font-size: xx-large;
+      }
+
+    #navBarIcons {
+        font-size: medium;
+        color: rgb(189, 188, 188);
+        float: right;
+        padding-bottom: 55%;
+    }
+
+    .bodyCont {
+        margin: auto;
+        height: 230vh;
+    }
+
+    .card {
+        width: 13rem;
+        height: 70vh;
+    }
+
+    #homeCardImg {
+        height: 45vh;
+        width: 50vw;
+    }
+
+    .pseudoBtn {
+        width: 27vw;
+        height: 4.8vh;
+    }
+
+    #footerId {
+        height: 5vh;
+    }
+
+
+}
+
+@media (max-width: 376px) {
+
+    html,
+    body {
+        background-position: center;
+    }
+
+    #navFont {
+        font-size: xx-large;
+      }
+
+    #navBarIcons {
+        font-size: medium;
+        color: rgb(189, 188, 188);
+        float: right;
+        padding-bottom: 55%;
+    }
+
+    .bodyCont {
+        margin: auto;
+        height: 230vh;
+    }
+
+    .card {
+        width: 13rem;
+        height: 70vh;
+    }
+
+    #homeCardImg {
+        height: 45vh;
+        width: 55.3vw;
+    }
+
+    .pseudoBtn {
+        width: 27vw;
+        height: 4.8vh;
+    }
+
+    #footerId {
+        height: 5vh;
+    }
+
+
+}
+
+
+@media (max-width: 321px) {
+
+    html,
+    body {
+        background-position: center;
+    }
+
+    #navFont {
+        font-size: xx-large;
+      }
+
+    #navBarIcons {
+        font-size: medium;
+        color: rgb(189, 188, 188);
+        float: right;
+        padding-bottom: 55%;
+    }
+
+    .bodyCont {
+        margin: auto;
+        height: 230vh;
+    }
+
+    .card {
+        width: 13rem;
+        height: 80vh;
+    }
+
+    #homeCardImg {
+        height: 45vh;
+        width: 64.3vw;
+    }
+
+    .pseudoBtn {
+        width: 35vw;
+        height: 5.8vh;
+    }
+
+    #footerId {
+        height: 5vh;
+    }
+
+
 }
