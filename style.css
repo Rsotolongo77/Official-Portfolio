@@ -306,17 +306,13 @@ body {
 }
 
 
-
-
-
-
-
-
 @media (max-width: 1025px) {
 
     html,
     body {
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .bodyCont {
@@ -340,6 +336,8 @@ body {
     html,
     body {
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .bodyCont {
@@ -369,6 +367,8 @@ body {
     html,
     body {
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #navFont {
@@ -414,6 +414,8 @@ body {
     html,
     body {
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #navFont {
@@ -460,6 +462,8 @@ body {
     html,
     body {
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #navFont {
