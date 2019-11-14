@@ -33,9 +33,9 @@ body {
     color: rgb(88, 88, 88);
     padding-right: 15%;
     margin-top: 0.5%;
-    /* -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
     -moz-animation: glow 1.5s ease-in-out infinite alternate;
-    animation: glow 1.5s ease-in-out infinite alternate; */
+    animation: glow 1.5s ease-in-out infinite alternate;
   }
   
   @keyframes glow {
@@ -380,12 +380,21 @@ body {
     }
 
     #aboutMe2Pic {
-        height: 30vh;
-        width: 30vw;
+        height: 20vh;
+        width: 20vw;
         float: left;
         color: white;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
     }
+
+    #aboutMeDetails, #aboutMeDetails2 {
+        font-size: medium;
+    }
+
+    #paper {
+        width: 60vw;
+        height: 120vh;
+      }
 
     #footerId {
         height: 5vh;
@@ -438,6 +447,35 @@ body {
         width: 85%;
     }
 
+    #jumboIndex2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35vh;
+    }
+
+    #aboutMe2Pic {
+        height: 10vh;
+        width: 15vw;
+        float: left;
+        color: white;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
+    }
+
+    #aboutMeDetails, #aboutMeDetails2 {
+        font-size: small;
+    }
+
+    #paper {
+        width: 60vw;
+        height: 230vh;
+      }
+
+      #content {
+        font-size: 10px;
+      }
+
+
     #footerId {
         height: 5vh;
     }
@@ -489,6 +527,34 @@ body {
         width: 85%;
     }
 
+    #jumboIndex2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35vh;
+    }
+
+    #aboutMe2Pic {
+        height: 10vh;
+        width: 15vw;
+        float: left;
+        color: white;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
+    }
+
+    #aboutMeDetails, #aboutMeDetails2 {
+        font-size: small;
+    }
+
+    #paper {
+        width: 60vw;
+        height: 290vh;
+      }
+
+      #content {
+        font-size: 10px;
+      }
+
     #footerId {
         height: 5vh;
     }
@@ -496,6 +562,19 @@ body {
 
 }
 
+@media (max-width: 361px) {
+    #jumboIndex2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vh;
+    }
+
+    #paper {
+        width: 60vw;
+        height: 320vh;
+      }
+}
 
 @media (max-width: 321px) {
 
@@ -540,6 +619,34 @@ body {
     #portImageText {
         width: 105%;
     }
+
+    #jumboIndex2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vh;
+    }
+
+    #aboutMe2Pic {
+        height: 5vh;
+        width: 10vw;
+        float: left;
+        color: white;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
+    }
+
+    #aboutMeDetails, #aboutMeDetails2 {
+        font-size: small;
+    }
+
+    #paper {
+        width: 60vw;
+        height: 440vh;
+      }
+
+      #content {
+        font-size: 10px;
+      }
 
     #footerId {
         height: 5vh;
