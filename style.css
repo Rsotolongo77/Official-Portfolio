@@ -235,7 +235,7 @@ body {
       
 #aboutMeDetails:hover {
     background: #7bb4ff62;
-    width: 100%;
+    width: 100.5%;
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -324,11 +324,28 @@ body {
         width: 12.8rem;
     }
 
+    #jumboIndex2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    #aboutMe2Pic {
+        height: 30vh;
+        width: 30vw;
+        float: left;
+        color: white;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
+    }
+
     #footerId {
         height: 5vh;
     }
 
-
+    #footerId2 {
+        height: 5vh;
+    }
 }
 
 @media (max-width: 769px) {
@@ -353,6 +370,21 @@ body {
     .pseudoBtn {
         width: 17vw;
         height: 4.8vh;
+    }
+
+    #jumboIndex2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+
+    #aboutMe2Pic {
+        height: 30vh;
+        width: 30vw;
+        float: left;
+        color: white;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
     }
 
     #footerId {
@@ -402,6 +434,10 @@ body {
         height: 4.8vh;
     }
 
+    #portImageText {
+        width: 85%;
+    }
+
     #footerId {
         height: 5vh;
     }
@@ -447,6 +483,10 @@ body {
     .pseudoBtn {
         width: 27vw;
         height: 4.8vh;
+    }
+
+    #portImageText {
+        width: 85%;
     }
 
     #footerId {
@@ -497,9 +537,14 @@ body {
         height: 5.8vh;
     }
 
+    #portImageText {
+        width: 105%;
+    }
+
     #footerId {
         height: 5vh;
     }
 
 
 }
+
