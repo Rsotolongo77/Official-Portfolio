@@ -503,19 +503,23 @@ body {
         padding-bottom: 55%;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
+
     .bodyCont {
         margin: auto;
-        height: 230vh;
+        height: 190vh;
     }
 
     .card {
-        width: 13rem;
-        height: 70vh;
+        width: 14rem;
+        height: 57vh;
     }
 
     #homeCardImg {
-        height: 45vh;
-        width: 55.3vw;
+        height: 35vh;
+        width: 59.5vw;
     }
 
     .pseudoBtn {
