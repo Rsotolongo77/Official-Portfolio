@@ -38,14 +38,14 @@ body {
     animation: glow 1.5s ease-in-out infinite alternate;
   }
   
-  @keyframes glow {
+  /* @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b8e6, 0 0 40px #00b8e6, 0 0 50px #00b8e6, 0 0 60px #00b8e6, 0 0 70px #00b8e6;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #a1fc8b, 0 0 40px #a1fc8b, 0 0 50px #a1fc8b, 0 0 60px #a1fc8b, 0 0 70px #a1fc8b, 0 0 80px #a1fc8b;
     }
-  }
+  } */
 
 #navIconHeight {
     margin-top: 2%;
@@ -429,17 +429,17 @@ body {
 
     .bodyCont {
         margin: auto;
-        height: 203vh;
+        height: 190vh;
     }
 
     .card {
         width: 14rem;
-        height: 60vh;
+        height: 57vh;
     }
 
     #homeCardImg {
         height: 35vh;
-        width: 53.7vw;
+        width: 59.2vw;
     }
 
     .pseudoBtn {
@@ -455,13 +455,14 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 35vh;
+        height: 50vh;
     }
 
     #aboutMe2Pic {
-        height: 10vh;
-        width: 15vw;
-        float: left;
+        height: 15vh;
+        width: 35vw;
+        margin-bottom: 8%;
+        float: none;
         color: white;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
     }
@@ -471,14 +472,13 @@ body {
     }
 
     #paper {
-        width: 60vw;
-        height: 230vh;
+        width: 85vw;
+        height: 135vh;
       }
 
       #content {
-        font-size: 10px;
+        font-size: 0.01rem;
       }
-
 
     #footerId {
         height: 5vh;
@@ -539,13 +539,14 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 35vh;
+        height: 50vh;
     }
 
     #aboutMe2Pic {
-        height: 10vh;
-        width: 15vw;
-        float: left;
+        height: 15vh;
+        width: 35vw;
+        margin-bottom: 8%;
+        float: none;
         color: white;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
     }
@@ -555,12 +556,12 @@ body {
     }
 
     #paper {
-        width: 60vw;
-        height: 290vh;
+        width: 85vw;
+        height: 135vh;
       }
 
       #content {
-        font-size: 10px;
+        font-size: 0.01rem;
       }
 
     #footerId {
