@@ -439,7 +439,7 @@ body {
 
     #homeCardImg {
         height: 35vh;
-        width: 59.2vw;
+        width: 54.2vw;
     }
 
     .pseudoBtn {
@@ -477,7 +477,7 @@ body {
       }
 
       #content {
-        font-size: 0.1rem;
+        font-size: 2%;
       }
 
     #footerId {
@@ -561,7 +561,7 @@ body {
       }
 
       #content {
-        font-size: 0.1rem;
+        font-size: 2%;
       }
 
     #footerId {
@@ -658,7 +658,7 @@ body {
       }
 
       #content {
-        font-size: 10px;
+        font-size: 2%;
       }
 
     #footerId {
