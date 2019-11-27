@@ -37,7 +37,7 @@ body {
     -moz-animation: glow 1.5s ease-in-out infinite alternate;
     animation: glow 1.5s ease-in-out infinite alternate;
   }
-  
+/*   
   @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b8e6, 0 0 40px #00b8e6, 0 0 50px #00b8e6, 0 0 60px #00b8e6, 0 0 70px #00b8e6;
@@ -45,7 +45,7 @@ body {
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #a1fc8b, 0 0 40px #a1fc8b, 0 0 50px #a1fc8b, 0 0 60px #a1fc8b, 0 0 70px #a1fc8b, 0 0 80px #a1fc8b;
     }
-  }
+  } */
 
 #navIconHeight {
     margin-top: 2%;
@@ -223,6 +223,8 @@ body {
     width: 30vw;
     float: left;
     color: white;
+    margin-right: 2%;
+    margin-bottom: 3%;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
 }
 
@@ -242,6 +244,11 @@ body {
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
     }
+
+#skills {
+    margin-left: 40%;
+    color: rgb(194, 193, 193);
+}
 
 #paper {
         width: 60vw;
@@ -324,6 +331,10 @@ body {
         width: 12.8rem;
     }
 
+    #skills {
+        display: none;
+    }
+
     #jumboIndex2 {
         background-position: center;
         background-repeat: no-repeat;
@@ -370,6 +381,10 @@ body {
     .pseudoBtn {
         width: 17vw;
         height: 4.8vh;
+    }
+
+    #skills {
+        display: none;
     }
 
     #jumboIndex2 {
@@ -425,6 +440,10 @@ body {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    #skills {
+        display: none;
     }
 
     .bodyCont {
@@ -509,6 +528,10 @@ body {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    #skills {
+        display: none;
     }
 
     .bodyCont {
@@ -607,6 +630,10 @@ body {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    #skills {
+        display: none;
     }
 
     .bodyCont {
