@@ -503,6 +503,31 @@ body {
         height: 4.8vh;
     }
 
+    #projHead {
+        height: 8vh;
+        width: 50vw;
+    }
+
+    #projHead2 {
+        font-size: 2.5rem;
+    }
+
+    #projName2 {
+        font-size: 2rem;
+    }
+
+    #projDis {
+        font-size: 1rem;
+    }
+
+    #carouselImg {
+        height: 35vh;
+    }
+
+    #projBut {
+        width: 35vw;
+    }
+
     #portImageText {
         width: 85%;
     }
@@ -589,6 +614,31 @@ body {
     .pseudoBtn {
         width: 27vw;
         height: 4.8vh;
+    }
+
+    #projHead {
+        height: 8vh;
+        width: 50vw;
+    }
+
+    #projHead2 {
+        font-size: 2.5rem;
+    }
+
+    #projName2 {
+        font-size: 2rem;
+    }
+
+    #projDis {
+        font-size: 1rem;
+    }
+
+    #carouselImg {
+        height: 35vh;
+    }
+
+    #projBut {
+        width: 35vw;
     }
 
     #portImageText {
