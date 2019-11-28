@@ -38,14 +38,14 @@ body {
     animation: glow 1.5s ease-in-out infinite alternate;
   }
   
-  /* @keyframes glow {
+  @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b8e6, 0 0 40px #00b8e6, 0 0 50px #00b8e6, 0 0 60px #00b8e6, 0 0 70px #00b8e6;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #a1fc8b, 0 0 40px #a1fc8b, 0 0 50px #a1fc8b, 0 0 60px #a1fc8b, 0 0 70px #a1fc8b, 0 0 80px #a1fc8b;
     }
-  } */
+  }
 
 #navIconHeight {
     margin-top: 2%;
