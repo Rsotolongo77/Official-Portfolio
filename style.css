@@ -37,14 +37,14 @@ body {
     animation: glow 1.5s ease-in-out infinite alternate;
   }
   
-  /* @keyframes glow {
+  @keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b8e6, 0 0 40px #00b8e6, 0 0 50px #00b8e6, 0 0 60px #00b8e6, 0 0 70px #00b8e6;
     }
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #a1fc8b, 0 0 40px #a1fc8b, 0 0 50px #a1fc8b, 0 0 60px #a1fc8b, 0 0 70px #a1fc8b, 0 0 80px #a1fc8b;
     }
-  } */
+  }
 
 #navIconHeight {
     margin-top: 2%;
@@ -78,29 +78,26 @@ body {
     text-decoration: none;
 } 
 
-.bodyCont {
+#bodyCont {
     background-color: rgba(226, 223, 214, 0.952);
     border-radius: 5px;
-    height: 80vh;
-    width: 77vw;
+    margin-top: 10%;
 }
 
 .card {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 13%;
+    margin-top: 20%;
+    margin-bottom: 20%;
     box-shadow: 5px 5px 15px 5px #424242;
-}
-
-#homeCardImg {
-    height: 45vh;
-    width: 19.9vw;
 }
 
 #homeLinks {
     background-color: rgb(82, 81, 81);
     color: white;
     border: none;
+    justify-content: center;
+    display: block;
 }
 
 #homeLinks:hover
@@ -117,14 +114,9 @@ body {
     background-color: rgb(82, 81, 81);
     border: none;
     border-radius: 5px;
-    width: 10vw;
-    height: 4.8vh;
     justify-content: center;
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    display: block;
+    text-align: center;
 }
 
 .card {
@@ -134,8 +126,10 @@ body {
 #cardIcons {
     color: white;
     font-size: x-large;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 #cardIcons:hover
@@ -381,10 +375,6 @@ body {
         height: 65vh;
     }
 
-    .card {
-        width: 12.8rem;
-    }
-
     #skills {
         display: none;
     }
@@ -415,26 +405,12 @@ body {
 
 @media (max-width: 769px) {
 
+    
     html,
     body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    .bodyCont {
-        margin: auto;
-        height: 75vh;
-    }
-
-    .card {
-        width: 9.6rem;
-        height: 4vh;
-    }
-
-    .pseudoBtn {
-        width: 17vw;
-        height: 4.8vh;
     }
 
     #skills {
@@ -449,23 +425,18 @@ body {
     }
 
     #aboutMe2Pic {
-        height: 20vh;
-        width: 20vw;
+        height: 30vh;
+        width: 30vw;
         float: left;
         color: white;
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.616);
     }
 
-    #aboutMeDetails, #aboutMeDetails2 {
-        font-size: medium;
+    #footerId {
+        height: 5vh;
     }
 
-    #paper {
-        width: 60vw;
-        height: 120vh;
-      }
-
-    #footerId {
+    #footerId2 {
         height: 5vh;
     }
 
@@ -507,17 +478,11 @@ body {
 
     .card {
         width: 14rem;
-        height: 57vh;
     }
 
-    #homeCardImg {
-        height: 35vh;
-        width: 54.2vw;
-    }
 
-    .pseudoBtn {
-        width: 27vw;
-        height: 4.8vh;
+    #homeLinks {
+        margin-bottom: 2%;
     }
 
     #projHead {
@@ -623,17 +588,6 @@ body {
 
     .card {
         width: 14rem;
-        height: 57vh;
-    }
-
-    #homeCardImg {
-        height: 35vh;
-        width: 59.2vw;
-    }
-
-    .pseudoBtn {
-        width: 27vw;
-        height: 4.8vh;
     }
 
     #projHead {
@@ -753,17 +707,6 @@ body {
 
     .card {
         width: 14rem;
-        height: 57vh;
-    }
-
-    #homeCardImg {
-        height: 35vh;
-        width: 59.2vw;
-    }
-
-    .pseudoBtn {
-        width: 35vw;
-        height: 5.8vh;
     }
 
     #portImageText {
