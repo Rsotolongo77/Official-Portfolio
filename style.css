@@ -103,9 +103,9 @@ body {
 #homeLinks:hover
 {
     box-shadow:
-    1px 1px #5376ea,
-    3px 3px #5376ea,
-    5px 5px #5376ea;
+    1px 1px #ea7e53,
+    3px 3px #ea7e53,
+    5px 5px #ea7e53;
     -webkit-transform: translateX(-6px);
     transform: translateX(-6px);
 }
@@ -135,13 +135,13 @@ body {
 #cardIcons:hover
 {
     box-shadow:
-    1px 1px #5376ea,
-    2px 2px #5376ea,
-    3px 3px #5376ea;
+    1px 1px #ea7e53,
+    2px 2px #ea7e53,
+    3px 3px #ea7e53;
     -webkit-transform: translateX(-4px);
     transform: translateX(-4px);
-    text-decoration-color: #5376ea;
-    color: #5376ea;
+    text-decoration-color: #ea7e53;
+    color: #ea7e53;
 }
 
 #cardIcons:hover
@@ -292,6 +292,7 @@ body {
     }
 
 #skills {
+    margin-top: 2rem;
     margin-left: 40%;
     color: rgb(194, 193, 193);
     text-align: center;
