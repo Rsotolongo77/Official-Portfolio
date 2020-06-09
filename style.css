@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    background-image: url("./assets/images/portfolioBackground.jpg");;
+    background-image: url("./assets/images/portfolioBackground.jpg");
 }
 
 .container-fluid {
@@ -32,17 +32,15 @@ body {
     color: rgb(88, 88, 88);
     padding-right: 15%;
     margin-top: 0.5%;
-    -webkit-animation: glow 1.5s ease-in-out infinite alternate;
-    -moz-animation: glow 1.5s ease-in-out infinite alternate;
     animation: glow 1.5s ease-in-out infinite alternate;
   }
   
   @keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b8e6, 0 0 40px #00b8e6, 0 0 50px #00b8e6, 0 0 60px #00b8e6, 0 0 70px #00b8e6;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00b8e6, 0 0 40px #00b8e6, 0 0 50px #00b8e6, 0 0 60px #00b8e6, 0 0 0px #00b8e6;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #a1fc8b, 0 0 40px #a1fc8b, 0 0 50px #a1fc8b, 0 0 60px #a1fc8b, 0 0 70px #a1fc8b, 0 0 80px #a1fc8b;
+      text-shadow: 0 0 20px #fff, 0 0 30px #a1fc8b, 0 0 40px #a1fc8b, 0 0 50px #a1fc8b, 0 0 60px #a1fc8b, 0 0 60px #a1fc8b, 0 0 0px #a1fc8b;
     }
   }
 
