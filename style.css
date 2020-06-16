@@ -132,7 +132,7 @@ body {
 
 #cardIcons:hover
 {
-    border-bottom: 1px solid rgba(250, 180, 115, 0.849);
+    color: #424242;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
