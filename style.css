@@ -100,13 +100,6 @@ body {
 
 #homeLinks:hover
 {
-    /* box-shadow:
-    1px 1px rgba(250, 180, 115, 0.849),
-    3px 3px rgba(250, 180, 115, 0.849),
-    5px 5px rgba(250, 180, 115, 0.849);
-    -webkit-transform: translateX(-6px);
-    transform: translateX(-6px); */
-
     background: rgba(250, 180, 115, 0.849);
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -139,14 +132,11 @@ body {
 
 #cardIcons:hover
 {
-    box-shadow:
-    1px 1px rgba(250, 180, 115, 0.849),
-    2px 2px rgba(250, 180, 115, 0.849),
-    3px 3px rgba(250, 180, 115, 0.849);
-    -webkit-transform: translateX(-4px);
-    transform: translateX(-4px);
-    text-decoration-color: rgba(250, 180, 115, 0.849);
-    color: rgba(250, 180, 115, 0.849);
+    border-bottom: 1px solid rgba(250, 180, 115, 0.849);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
 }
 
 #cardIcons:hover
@@ -287,13 +277,9 @@ body {
 }
       
 #aboutMeDetails:hover {
-    background: #7bb4ff62;
     width: 100.5%;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
+    color: rgb(238, 199, 163);
+    background-color: rgba(58, 58, 58, 0.11);
     }
 
 #skills {
@@ -323,18 +309,13 @@ body {
         background-color: rgba(255,0,0,0.6);
       }
       
-#pattern {
-        height: 100%;
-        background-image: repeating-linear-gradient(rgb(245, 235, 207) 0px, rgb(245, 235, 207) 24px, teal 25px);
-      }
-      
 #content {
         padding-top: 6px;
         padding-left: 56px;
         padding-right: 16px;
-        line-height: 25px;
-        font-family: 'Merriweather', serif;
-        font-size: 19px;
+        line-height: 40px;
+        font-family:'Handlee', cursive;
+        font-size: 2rem;
         letter-spacing: 1px;
         word-spacing: 5px;
       }
